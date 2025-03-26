@@ -1,0 +1,13 @@
+name: W1
+
+on:
+  pull_request:
+    paths:
+      - "**"
+
+jobs:
+  ci:
+    name: CI
+    uses: ubuntu-latest
+    steps:
+      - run: echo "OK"
