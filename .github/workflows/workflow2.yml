@@ -1,0 +1,13 @@
+name: W2
+
+on:
+  pull_request:
+    paths:
+      - "**"
+
+jobs:
+  ci:
+    name: CI
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "OK"
