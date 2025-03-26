@@ -9,3 +9,6 @@ jobs:
   ci:
     name: CI
     uses: ./.github/workflows/reusable_workflow.yml
+  ci2:
+    name: CI
+    needs: ci
