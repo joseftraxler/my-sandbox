@@ -8,6 +8,4 @@ on:
 jobs:
   ci:
     name: CI
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "OK"
+    uses: ./.github/workflows/reusable_workflow.yml
