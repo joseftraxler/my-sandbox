@@ -12,3 +12,5 @@ jobs:
   ci2:
     name: CI
     needs: ci
+    steps:
+      - run: echo "OK"
