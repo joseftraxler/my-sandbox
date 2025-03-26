@@ -1,0 +1,9 @@
+on:
+  workflow_call:
+
+jobs:
+  ci:
+    name: CI
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "OK"
